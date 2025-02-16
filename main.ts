@@ -23,9 +23,6 @@ input.onButtonPressed(Button.A, function () {
         basic.showString("Lampe éteinte")
     }
 })
-input.onButtonPressed(Button.B, function () {
-    led.unplot(0, 0)
-})
 basic.forever(function () {
 	
 })
